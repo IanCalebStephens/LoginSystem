@@ -35,18 +35,11 @@ void account_create_new(vector<string>&, vector<string>&);
 
 
 int main() {
-	//Local Var
-	/*ifstream inStream_U;
-	ofstream outStream_U;
-	ifstream inStream_P;
-	ofstream outStream_P;*/
 	vector <string> usernames;
 	vector <string> passwords;
 	bool menu_on;
-	bool first_vect_init;
-
 	int menu_choice;
-	first_vect_init = true;
+	
 	init_IOStreams();
 	fill_un_vector(usernames);
 	fill_pw_vector(passwords);
